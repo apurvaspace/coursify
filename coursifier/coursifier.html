@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://unpkg.com/tailwindcss@1.0/dist/tailwind.min.css" rel="stylesheet">
+    <title>Coursify</title>
+    <link rel="icon" href="../favicon.png" type="image/png">
+</head>
+<body>
+    <header class="text-gray-400 bg-gray-900 body-font">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+          <a class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-blue-500 rounded-full" viewBox="0 0 24 24">
+              <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+            </svg>
+            <span class="ml-3 text-xl">Coursify - Coursifier</span>
+          </a>
+          <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
+            <a href="../index.html" class="mr-5 hover:text-white">Home</a>
+            <a href="./coursifier.html" class="mr-5 hover:text-white">Coursifier</a>
+            <a href="../course_feedback/course_feedback.html" class="mr-5 hover:text-white">Course Feedback</a>
+            <a class="mr-5 hover:text-white">Contact Us</a>
+          </nav>
+
+          <div class="circle text-base justify-center items-center">A</div>
+
+          <button onclick="window.location.href = '../login/login.html';" class="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">Sign in
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </button>
+        </div>
+      </header>
+<section class="text-gray-600 body-font relative">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="flex flex-col text-center w-full mb-12">
+        <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Coursifier</h1>
+        <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Please tell us about yourself so that we can suggest the best subjects for you ;)</p>
+      </div>
+      <div class="lg:w-3/4 md:w-2/3 mx-auto">
+        
+          <div class="flex flex-wrap -m-2">
+
+            <div class="p-2 w-2/3">
+              <div class="relative">
+                <label for="type" class="leading-7 text-sm text-gray-600">Course</label>
+                <select class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-blue-500 focus:bg-white focus:ring-2 focus:ring-blue-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                  <option>AEROSPACE ENGINEERING (B.TECH 4Y)</option>
+                  <option>AEROSPACE ENGINEERING (M.TECH DUAL 5Y)</option>
+                  <option>AGRICULTURAL AND FOOD ENGG. (B.TECH 4Y)</option>
+                  <option>AGR. FOOD ENGG.FOOD PROCESS ENGG. (M.TECH DUAL 5Y)</option>
+                  <option>AGR. FOOD ENGG.FARM MACHINERY AND POWER (M.TECH DUAL 5Y)</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="p-2 w-1/3">
+                <div class="relative">
+                  <label for="interest" class="leading-7 text-sm text-gray-600">Semester</label>
+                  <input type="text" id="interest" name="name" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-blue-500 focus:bg-white focus:ring-2 focus:ring-blue-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" placeholder="Ex.: 3">
+                </div>
+              </div>
+
+              
+
+            <div class="p-2 w-full">
+              <div class="relative">
+                <label for="interest" class="leading-7 text-sm text-gray-600">Your interest areas in the preference order</label>
+                <input type="text" id="interest" name="name" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-blue-500 focus:bg-white focus:ring-2 focus:ring-blue-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" placeholder="Ex.: Software_Development Electrical_Engineering Data_Science">
+              </div>
+            </div>
+          
+            
+          <div class="p-2 w-full">
+            <button class="flex mx-auto text-white bg-blue-500 border-0 py-2 px-8 focus:outline-none hover:bg-blue-600 rounded text-lg">Next
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5 ml-1" viewBox="0 -5 24 24">
+                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                  </svg>
+            </button>
+          </div>
+
+          <div class="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
+            
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>

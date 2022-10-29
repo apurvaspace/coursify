@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.circle {
+    border-radius: 50%;
+    width: 2em;
+    height: 2em;
+    padding: 0.5em;
+    background: #4299E1;
+    border: 0.025em solid #000;
+    color: white;
+    text-align: center;
+    font: 1em Arial, sans-serif;
+    margin-right: 1em;
+  }
+
+  #intro {
+    width: 80%;
+    margin-left: 10%;
+  }
+
+#feedback {
+    margin-left: 10%;
+    width: 80%;
+    
+}
