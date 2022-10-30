@@ -11,6 +11,8 @@
   top: 0;
 }
 
+
+
 .circle {
     border-radius: 50%;
     width: 2em;
@@ -35,9 +37,19 @@
   border-top-color: #4299E1;
 }
 
+#feedback-div {
+  background-image: url(../img/feedback_bg.png);
+  background-size: 100%;
+  background-origin: content-box;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+
 #feedback {
     margin-left: 10%;
     width: 80%;
+    z-index: 80;
 }
 
 .fade-in-text {
